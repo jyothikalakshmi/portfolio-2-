@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="title">PORTFOLIO</h1>
+      <ul class="navbar">
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="content">
+  <section id="intro" class="section">
+    <div class="container">
+      <img src="profile.png" alt="profile image">
+      <h1>Hello, I'm <span class="highlight">Jyothika Lakshmi M</span></h1>
+      <p>Aspiring Software Developer | Web Enthusiast</p>
+      <a href="#contact" class="button">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <div class="section-header">
+      <h2>Education</h2>
+    </div>
+    <div class="education-content">
+      <!-- College Education -->
+      <div class="education-item">
+        <h3>Bachelor of Technology in Computer Science</h3>
+        <p><strong>Dayananda Sagar College of Engineering</strong></p>
+        <p>2022 - 2026</p>
+        <ul>
+          <li>Semester 1 GPA: 9.7</li>
+          <li>Semester 2 GPA: 9.85</li>
+          <li>Semester 3 GPA: 9.3</li>
+          <li>Semester 4 GPA: 9.5</li>
+          <li>Overall CGPA (till now): 9.6</li>
+        </ul>
+      </div>
+  
+      <!-- Pre-University Education -->
+      <div class="education-item">
+        <h3>Higher Secondary Education (PU)</h3>
+        <p><strong>St.Johns PU College</strong></p>
+        <p>2020 - 2022</p>
+        <p>Percentage: 97.5%</p>
+        <p>Stream: Science with Computer Science</p>
+      </div>
+  
+      <!-- Certifications -->
+      <div class="certifications">
+        <h3>Certifications</h3>
+        <ul>
+          <!-- <li>Full-Stack Web Development (Coursera)</li> -->
+          <li>Machine Learning in Python (Udemy)</li>
+          <li>Data Science for Engineers (NPTEL)</li>
+          <li>Data Structures with java (NPTEL)
+  </section>
+  
+
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Job portal website</h3>
+          <p>Description: Developed a web application to streamline job searching and recruitment processes.<br>
+            Features: User authentication, advanced job filtering, and an interface for employers to post jobs seamlessly.<br>
+            Technologies: MERN Stack (MongoDB, Express.js, React.js, Node.js).
+            <a href="https://github.com/Kirthanaaa9/FS_project" target="_blank">view project</a>
+            </p>
+        </div>
+        <div class="card">
+          <h3>Library management system</h3>
+          <p>Description: Designed a dynamic and user-friendly web application for managing library records.<br>
+            Features: Addition and deletion of students, books, and librarians to streamline administrative tasks.<br>
+            Technologies: Java, PostgreSQL.
+            </p>
+        </div>
+        <div class="card">
+          <h3>Fake news detection</h3>
+          <p>Description: Built a web app to verify the authenticity of news articles.<br>
+            Features: Users can input news articles, and the system predicts authenticity using TF-IDF vectorization and a Multinomial Naive Bayes classifier.<br>
+            Technologies: Python, Flask.</p>
+            <a href="https://github.com/jyothikalakshmi/4thsem_miniproject" targte="_blank">view project</a>
+        </div>
+        <div class="card">
+          <h3>Waste Collection and Management Website</h3>
+          <p>Description: Created a platform to efficiently manage waste collection services.<br>
+            Features: Users can book time slots, track waste pick-up schedules, and submit complaints.<br>
+            Technologies: HTML, CSS, JavaScript.<br>
+            <a href="https://github.com/jyothikalakshmi/1styearminiproject" target="_blank">view project</a>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Mongodb</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me!</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="button">Send</button>
+      </form>
+    </div>
+  </section>
+</div>
+  <footer>
+    <p>&copy; 2024 Jyothika Lakshmi M. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
